@@ -1,0 +1,138 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #f3efe8;
+}
+body {
+    background-color: #F0ECE3;
+}
+h1 {
+    color: #596E79;
+    width: 100%;
+    font-size: 150px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 3px 2px black;
+}
+
+h2 {
+    color: #596E79;;
+    text-align: center;
+    text-shadow: 0px 3px 2px black;
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-shadow: 0px 3px 2px black;
+}
+
+form {
+    background-color: #c7b198d0;;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 44px;
+    border: solid #596E79 2px;
+    box-shadow: 14px 14px 12px 6px rgb(0 0 0 / 20%), 1px 16px 20px 4px rgb(0 0 0 / 19%)
+    
+}
+
+.amount {
+    font-weight: 300px;
+    background-color: #c7b198d0;;
+    width: 77.5%;
+    border: solid 2px #e0dcd6;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.question-field {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    background-color: #c7b198d0;;
+    width: 80%;
+    margin-top: 15px;
+    padding: 5px;
+    border: solid 2px #e0dcd6;
+    cursor: pointer;
+}
+
+.start {
+    width: 90%;
+    padding: 5px;
+    font-weight: 600;
+    background-color: #596E79;
+    color: black;
+    margin-top: 50px;
+}
+
+
+.questions-container {
+    background-color: #c7b198d0;
+    border: solid #596E79 2px;
+    box-shadow: 14px 14px 12px 6px rgb(0 0 0 / 20%), 1px 16px 20px 4px rgb(0 0 0 / 19%);
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#questionName {
+    margin-bottom: 30px;
+    width: 90%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.questions {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+button {
+    padding: 5px;
+    color: black;
+    width: 90%;
+    padding: 5px;
+    background-color: #596E79;
+    color: black;
+}
+
+
+.status {
+    width: 40%;
+    margin: auto;
+    display: none;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: solid 2px rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+
+
